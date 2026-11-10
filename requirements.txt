@@ -1,0 +1,2 @@
+anthropic>=2.7
+google-genai>=1.30   # Gemini로 돌릴 때

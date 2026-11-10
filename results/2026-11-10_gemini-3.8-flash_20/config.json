@@ -1,0 +1,18 @@
+{
+ "learner": "gemini:gemini-3.8-flash",
+ "tutor_model": "gemini:gemini-3.8-flash",
+ "judge": "gemini:gemini-3.8-flash",
+ "effort": "medium",
+ "judge_effort": "medium",
+ "tutors": "baseline,socratic,direct",
+ "reps": 1,
+ "max_turns": 4,
+ "control": true,
+ "rules": true,
+ "n_tasks": 20,
+ "filters": {
+  "languages": "Python",
+  "limit": 20,
+  "sample_seed": 1
+ }
+}
